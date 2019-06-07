@@ -191,6 +191,9 @@ a {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home {
+  max-width: 1400px;
+}
 .home .header-text {
   display: flex;
   justify-content: space-between;
@@ -204,10 +207,12 @@ a {
   padding: 0 3rem 0 3rem;
 }
 .home .header-content {
-  margin: 10px 3rem;
+  margin: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: #C0C0C0 dashed 2px;
 }
 .home .content-section {
-  margin: 30px 3rem;
+  margin: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -220,11 +225,11 @@ a {
   padding-left: 1%;
 }
 .home .content-section .img-content img {
-  border-radius: 10px;
+  border-radius: 15%;
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: #C0C0C0 dashed 2px;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -239,17 +244,17 @@ a {
   margin: 0 auto 30px;
 }
 .home .content-destination img {
-  border-radius: 10px;
+  border-radius: 8%;
 }
 .home .content-pick {
-  padding-top: 30px;
+  margin: 3rem;
+  padding-top: 3rem;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
-  margin-bottom: 30px;
 }
 .home .content-pick button {
   background-color: #17A2B8;
