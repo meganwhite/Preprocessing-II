@@ -2,6 +2,12 @@
 
     nav {
         .flex(flex-end, flex-end);
+
+        @media @mobile {
+            width: 100%;
+            justify-content: space-between;
+            margin: 0 3rem 0 3rem;
+        }
     }
         a {
             text-decoration: none;
@@ -9,6 +15,11 @@
             padding-right: @margin;
             padding-bottom: 1rem;
             color: @font-color; 
+
+            @media @mobile {
+                padding: 0 1rem 1rem 1rem;
+                font-size: 1.4em;
+            }
         }
 
 
